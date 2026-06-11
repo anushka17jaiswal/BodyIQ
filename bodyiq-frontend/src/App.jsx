@@ -38,7 +38,7 @@ const [listening, setListening] = useState(false)
   try {
 
     const response = await fetch(
-      "http://127.0.0.1:8001/analyze",
+      "https://bodyiq-trgy.onrender.com/analyze",
       {
         method: "POST",
 
@@ -97,7 +97,7 @@ setMessages(prev => [...prev, loadingMessage])
   try {
 
     const response = await fetch(
-      "http://127.0.0.1:8001/chat",
+      "https://bodyiq-trgy.onrender.com/chat",
       {
         method: "POST",
 
@@ -184,7 +184,7 @@ const generatePlan = async () => {
   try {
 
     const response = await fetch(
-      "http://127.0.0.1:8001/generate-plan",
+      "https://bodyiq-trgy.onrender.com/generate-plan",
       {
         method: "POST",
 
