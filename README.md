@@ -97,10 +97,10 @@ uvicorn main:app --reload
 ## 🌐 Live Demo
 
 Frontend:
-[Add Vercel URL]
+https://body-iq-eight.vercel.app/
 
 Backend:
-[Add Render URL]
+https://bodyiq-trgy.onrender.com
 
 
 
